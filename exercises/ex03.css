@@ -1,0 +1,38 @@
+.test-div{
+    background: orange;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+.test-div h2{
+    color: rgb(104, 124, 194);
+}
+
+.test-div:hover {
+    background-color: pink;
+}
+
+h2 {color: green;}
+
+.test-div {
+    color: rgb(227, 25, 25);
+}
+
+.test-div .special{
+    background-color: aqua;
+}
+
+#house {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#split {
+    display: flex;
+    flex-direction: column;
+}
+
+
