@@ -1,0 +1,32 @@
+
+
+div p {
+    background-color: orange;
+    padding: 20;
+    margin: 5px;
+    border-color: aqua;
+    border-width: 2;
+}
+
+.lvl1 
+
+
+.mini p{
+    background-color: rgb(154, 154, 231);
+    padding-top: 5;
+    padding-bottom: 5;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+
+}
+
+.lvl1 {
+    display: flex;
+    flex-direction: column;
+}

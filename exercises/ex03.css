@@ -25,14 +25,13 @@ h2 {color: green;}
 
 #house {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+ 
 }
-
-
 
 #split {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
