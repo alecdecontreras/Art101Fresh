@@ -1,0 +1,13 @@
+BODY {background-image: url("oak_savanna.png");}
+h3 {
+    background-color: rgb(236, 188, 106);
+
+}
+#p2 {
+    background-color: rgb(201, 249, 233);
+    display: inline;
+    font-size: 300%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}

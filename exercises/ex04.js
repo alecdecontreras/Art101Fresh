@@ -1,18 +1,17 @@
-let totalNumber = 0;
+let count = 0;
+let colors = ["Orchid", "Coral", "HotPink", "Plum"]; // new line tp add
 
-//add a button titled click me
+$("#needy-button").click(function () {
+  
+    let reminder = count % colors.length;
 
-//function(receptacle).listener(what happens)
-$("#needy-button").click(function(){
+    $("#needy-button").html( "Clicks: " + count + " Color: " + colors[count] ); 
+   // new line tp add
 
-    totalNumber = totalNumber + 1;
-
-    let sentence = "I was clicked ";
-    let totalNumbers = sentence + totalNumber;
-
-    $("#needy-button").html(totalNumbers);
-
-
+    $("body").css("background-color",colors[count]);
+    //library(receptacle)verb(function?)
+    //reach an array of the name colors, and take an element from the array
+  count = count + 1;
 
 });
 //If you click the button
